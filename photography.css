@@ -1,0 +1,82 @@
+/* Add a black background color to the top navigation */
+.topnav 
+{
+    background-color: transparent; /* #333 */
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+    float: left;
+    display: block;
+    color: black; /* #f2f2f2 */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Initiating the font */
+html
+{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+h2
+{
+	color: black;
+}
+
+body
+{
+  background-color: #FFFDFE; /* C3BCBF; */
+}
+
+
+/* Social Media */
+#fb:hover{
+	width: 55px;
+	height: 55px;
+
+}
+
+#insta:hover{
+	width: 55px;
+	height: 55px;
+}
+
+#linkedin:hover{
+	width: 55px;
+	height: 55px;
+}
+
+#youtube:hover{
+	width: 55px;
+	height: 55px;
+}
+
+#twitter:hover{
+	width: 55px;
+	height: 55px;
+}
+
+.socialmedia{
+	font-family: "Questrial";
+	filter: grayscale(100%);
+	/*border: 2px solid black;*/
+}
